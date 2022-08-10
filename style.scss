@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:ital@1&display=swap');
+$primary:#f5a637;
+$secondary:#6c757d;
+$font-family-sans-serif:'Lato','Playfair Display', sans-serif;
+$btn-border-radius-lg:0px;
+$nav-link-font-size : 12px;
+$nav-link-hover-color : $primary !important;
+$btn-font-size-lg:12px;
+$btn-padding-x-lg:25px;
+$btn-padding-y-lg:15px;
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+.text-white-75{
+  color: rgb(255,255,255,0.75);
+}
+.navbar-brand{
+  font-family: 'Playfair Display';
+
+}
+.btn-lg:hover{
+  color:var(--bs-primary) !important;
+  background-color: transparent !important;
+}
+//.nav-link{
+//  font-size: 12px !important;
+//}
+.hero-head{
+  font-family: 'Playfair Display',serif;
+}
+.hero-bg{
+  background-image: url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  //filter: blur(8px);
+  z-index: 0;
+
+}
+.hero-text{
+  z-index: 200;
+}
+.trans-bg{
+  background-color: #00000094;
+}
